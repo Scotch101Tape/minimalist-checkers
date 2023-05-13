@@ -1,0 +1,56 @@
+* {
+  font-family: monospace;
+  font-size: large;
+}
+
+#board {
+  white-space: pre;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: grey
+}
+
+#main-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#turn {
+  position: relative;
+  bottom: 200px;
+  font-size: x-large;
+}
+
+.black-pawn {
+  color: black;
+}
+
+.white-pawn {
+  color: red;
+}
+
+.possible-white-pawn {
+  color: pink
+}
+
+.possible-black-pawn {
+  color: darkgray
+}
+
+.white-king {
+  color: red
+}
+
+.black-king {
+  color: black
+}
+
+.pawn {}
+
+.selected {
+  background-color: green;
+}
